@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #416788;
+  color: #333;
+}
+
+header {
+  background-color: #65532F;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  border-bottom: 3px solid #4b3e24;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  margin: 50px 0;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+button {
+  background-color: #416788;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #30546d;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #416788;
+  outline: none;
+}
+
+footer {
+  background-color: #416788;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+  color: #416788;
+}
+
+.project-card p {
+  font-size: 16px;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  color: #ffffff;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.about-container h1,
+.about-container h2 {
+  color: #ffffff;
+}
+
+.about-container p {
+  margin-bottom: 20px;
+}
+
+.resume-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  color: #ffffff;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.resume-container h1,
+.resume-container h2 {
+  color: #ffffff;
+}
+
+.resume-container p {
+  margin-bottom: 20px;
+}
